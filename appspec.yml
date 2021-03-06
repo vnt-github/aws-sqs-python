@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /Readme.md
-    destination: /var/www/html/
+  - source: /
+    destination: /TweetScraper
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
